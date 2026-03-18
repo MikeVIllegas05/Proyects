@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 2px solid #b5e0f1;
+}
+
+#logo{
+    color: #18a0fb;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.menu-nav ul{
+    list-style: none;
+}
+
+.menu-nav li{
+    display: inline; 
+    margin-left: 15px;
+}
+
+.menu-nav a{
+    text-decoration: none;
+    color: #18A0FB
+}
+
+.formulario{
+    display:  flex;
+    align-items: center;
+}
+
+#buscador-header{
+    border: 1px solid #18a0fb;
+}
+
+#buscador-header button{
+    padding: 8px;
+    font-size: 12px;
+    background-color: #18a0fb;
+    border: none;
+    color: #ffff;
+}
+
+.buscador-header input{
+    padding: 6px;
+    border: none;
+    font-size: 12px;
+}
+
+section {
+    padding-top: 32px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.fon-18{
+    font-size: 18px;
+}
+
+.text-blue-1{
+    color: #18a0fb;
+}
+
+.text-blue-2{
+    color: #b5e0f1;
+}
+
+.text_gray{
+    color: #A0A0A0;
+}
+
+.img-article img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.text-article{
+    padding-top: 30px;
+    border-bottom: 2px solid #18a0fb;
+}
+
+.text-article p{
+    font-size: 14px;
+    padding: 6px 0;
+    text-align: justify;
+}
+
+.fon-22{
+    font-size: 22px;
+}
+
+.list-share{
+    list-style: none;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.list-share li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.list-share a{
+    text-decoration: none;
+    font-size: 32px;
+    color: #A0A0A0;
+}
+
+.etiquetas span{
+    background-color: #e8e6e6;
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-right: 20px;
+    border-radius: 12px;
+}
+
+.redes{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: #333333;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #ffff;
+}
+
+#logo-white{
+    color:#ffff;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.menu-nav-footer ul{
+    list-style: none;
+}
+
+.menu-nav-footer li{
+    display: inline;
+    margin-right: 50px;
+}
+
+.menu-nav-footer a{
+    color: #ffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
